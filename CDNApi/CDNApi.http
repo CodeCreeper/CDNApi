@@ -1,0 +1,6 @@
+@CDNApi_HostAddress = http://localhost:5076
+
+GET {{CDNApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
