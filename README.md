@@ -35,25 +35,29 @@ Before running the api please ensure that the relevant packages and files are in
 
 ### API Endpoints
 1. Get All Users
+
    Retrieve a list of all registered users.
 
    URL: /api/users
    Method: GET
-   Get User by ID
 
-2. Retrieve information about a specific user by providing their ID.
+2. Get User by ID
+
+   Retrieve information about a specific user by providing their ID.
 
    URL: /api/users/{id}
    Method: GET
-   Create User
 
-3. Register a new user in the system.
+3. Create User
+
+   Register a new user in the system.
 
    URL: /api/users
    Method: POST
    Request Body: JSON object with user details (username, mail, phone number, skillsets, hobby)
 
 4. Update User
+   
    Update information for an existing user based on their ID.
   
    URL: /api/users/{id}
@@ -61,6 +65,7 @@ Before running the api please ensure that the relevant packages and files are in
    Request Body: JSON object with updated user details
 
 5. Delete User
+   
    Delete a user from the system based on their ID.
 
    URL: /api/users/{id}
