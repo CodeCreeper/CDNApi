@@ -17,19 +17,21 @@ CDN Developer Network is a platform to manage a directory of freelancers, allowi
 ## Getting Started
 Before running the api please ensure that the relevant packages and files are installed to avoid any problems while running such as NuGAT and Entity Framework.
 
-### Prerequisites
+## Prerequisites
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 8.0 or higher)
 - [Visual Studio Code](https://code.visualstudio.com/) or any preferred code editor
 - [Microsoft SQL Server](https://www.microsoft.com/en-my/sql-server/sql-server-downloads)
 - [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 
-### Installation
+## Installation
 1. Clone the repository
    ```bash
    git clone https://github.com/CodeCreeper/CDNApi.git
 2. Navigate to the project folder
+   ```bash
    cd CDNApi
 3. Run the application
+   ```bash
    dotnet run
 4. Click on the link that is provided in the terminal by using CTRL + Left Mouse Click
 
@@ -71,7 +73,7 @@ Before running the api please ensure that the relevant packages and files are in
    URL: /api/users/{id}
    Method: DELETE
 
-### Technologies Used
+## Technologies Used
 - ASP.NET Core
 - Entity Framework Core
 - Microsoft SQL Server
