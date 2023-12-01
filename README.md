@@ -35,7 +35,7 @@ Before running the api please ensure that the relevant packages and files are in
    dotnet run
 4. Click on the link that is provided in the terminal by using CTRL + Left Mouse Click
 
-### API Endpoints
+## API Endpoints
 1. Get All Users
 
    Retrieve a list of all registered users.
